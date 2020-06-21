@@ -46,7 +46,7 @@ def extract_title(df: pd.DataFrame, col: str, replace_dict: dict = None,
     """
     df[title_col] = df[col].str.extract(r' ([A-Za-z]+)\.', expand=False)
 
-    if replace_dict:
+    if replace_dict == True:
         df[title_col] = np.where(df[title_col].isin(replace_dict.keys()),
                                  df[title_col].map(replace_dict),
                                  df[title_col])
