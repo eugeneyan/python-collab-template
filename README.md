@@ -17,6 +17,10 @@ make setup -B
 make check
 ```
 
+Make a pull request to this repo to see the checks in action 😎
+
+Here's a [sample pull request](https://github.com/eugeneyan/python-collab-template/pull/1) which initially failed ❌ the checks, and then passed ✅.
+
 ## Running our checks
 
 In it, we cover the following aspects of setting up a python project, including:
@@ -170,4 +174,4 @@ jobs:
     - run: bash <(curl -s https://codecov.io/bash)
 ```
 
-### View the [article](https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/) for the walkthrough.
+### 👉 View the [article](https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/) for the walkthrough.
