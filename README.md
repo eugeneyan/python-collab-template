@@ -60,7 +60,7 @@ test_categorical.py::test_extract_title_with_replacement PASSED          [100%]
 ============================== 2 passed in 0.30s ===============================
 ```
 
-### Coverage
+### Code Coverage
 ```
 $ pytest --cov=src
 ============================= test session starts ==============================
@@ -155,7 +155,7 @@ test: clean
 	. .venv/bin/activate && py.test tests --cov=src --cov-report=term-missing --cov-fail-under 95
 ```
 
-### GitHub Actions with each PR
+### GitHub Actions with each `git push`
 ```
 # .github/workflows/tests.yml
 name: Tests
