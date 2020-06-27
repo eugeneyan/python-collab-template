@@ -17,7 +17,7 @@ make setup -B
 make check
 ```
 
-Make a pull request to this repo to see the checks in action 😎
+Make a pull request to this repo to see the checks in action 😎 
 
 Here's a [sample pull request](https://github.com/eugeneyan/python-collab-template/pull/1) which initially failed ❌ the checks, and then passed ✅.
 
