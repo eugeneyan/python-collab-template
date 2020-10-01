@@ -175,3 +175,6 @@ jobs:
 ```
 
 ### 👉 View the [article](https://eugeneyan.com/writing/setting-up-python-project-for-automation-and-collaboration/) for the walkthrough.
+
+### Todo
+- [ ] Update requirements.txt to use `poetry`
