@@ -10,6 +10,6 @@ jobs:
       with:
         python-version: 3.8
         architecture: x64
-    - run: make setup
-    - run: make check
+    - run: make setup-venv
+    - run: make checks
     - run: bash <(curl -s https://codecov.io/bash)
