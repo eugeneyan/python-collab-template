@@ -10,11 +10,17 @@ Repository for [How to set up a Python Repo for Automation and Collaboration](ht
 git clone git@github.com:eugeneyan/python-collab-template.git
 cd python-collab-template
 
-# Create python environment (-B might be needed to execute)
-make setup -B
+# Built docker image
+make setup
 
-# Run the suite of tests and checks
-make check
+# Alternatively, you can create a python virtualenv on your local machine (-B might be needed to execute)
+make setup-venv -B
+
+# Run the suite of tests and checks on docker
+make run-checks
+
+# Alternatively, run the suite of tests and checks on your local machine
+make checks
 ```
 
 Make a pull request to this repo to see the checks in action 😎 
